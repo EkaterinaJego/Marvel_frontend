@@ -42,3 +42,46 @@
   margin-bottom: 3%;
   font-style: italic;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .main-fav {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .fav-comics {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 1%;
+  }
+
+  .fav-characters {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fav-h1 {
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .fav-img {
+    width: 50%;
+    height: 100px;
+  }
+
+  .fav-title {
+    font-size: 16px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}

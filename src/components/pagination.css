@@ -32,3 +32,33 @@
   color: #ed181e;
   cursor: pointer;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .pagination-main {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .previous-page {
+    display: flex;
+    font-size: 10px;
+    color: #ed181e;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+
+  .number {
+    font-size: 10px;
+  }
+
+  .next-page {
+    padding-left: 5px;
+
+    font-size: 10px;
+  }
+}

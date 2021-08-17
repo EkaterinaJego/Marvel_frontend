@@ -61,7 +61,7 @@ const Comics = ({ titleSearch, myUrl, userFavComics, setUserFavComics }) => {
               let isInFav = userFavComics.indexOf(item._id) !== -1;
               return (
                 <div className="comicsbook" key={index}>
-                  <div>
+                  <div className="iconstar">
                     <FontAwesomeIcon
                       icon="star"
                       className="iconstar"
@@ -80,16 +80,18 @@ const Comics = ({ titleSearch, myUrl, userFavComics, setUserFavComics }) => {
                       }}
                     />
                   </div>
+                  <h2 className="comicstitle">{item.title}</h2>
                   <img
                     className="comicsimg"
                     src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
                     alt={item.title}
                   />
 
-                  <h2 className="comicstitle">{item.title}</h2>
                   {item.description ? (
                     <div className="comicsdescription">
-                      <p>{item.description.trim()}</p>
+                      <div className="comicsdescriptionp">
+                        {item.description}
+                      </div>
                     </div>
                   ) : (
                     ""

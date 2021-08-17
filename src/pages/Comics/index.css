@@ -18,17 +18,20 @@
   text-align: justify;
 }
 
+.comicsbook > div {
+  align-items: center;
+  justify-content: center;
+}
+
 .comicsbook {
   width: 31%;
   height: 600px;
   margin: 1% 1%;
-  /* padding: 10px 1%; */
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
   box-sizing: border-box;
-  border: solid 0.1px grey;
 }
 
 .comicsbook > div {
@@ -36,7 +39,11 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 30px;
+}
+
+.comicsbook > div {
+  align-items: center;
+  justify-content: center;
 }
 
 .iconstar {
@@ -51,8 +58,17 @@
   margin-top: 20px;
 }
 
-.comicsdescription p {
-  width: 450px;
+.comicsdescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  width: 80%;
+}
+
+.comicsdescriptionp {
+  text-align: center;
+  width: 90%;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
   word-break: break-word;
@@ -60,8 +76,55 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   text-align: justify;
-  line-height: 17px;
   letter-spacing: 0.7px;
   max-height: 48px;
+  box-sizing: border-box;
   -webkit-line-clamp: 2;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .comicbooks-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+  }
+
+  .comicstitle {
+    font-size: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+    max-height: 15%;
+    max-width: 90%;
+    overflow: hidden;
+    font-weight: normal;
+  }
+
+  .comicsbook {
+    width: 31%;
+    height: 200px;
+    margin-bottom: 4%;
+    background-color: white;
+    border: solid 0.1px grey;
+  }
+
+  .comicsbook > div {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconstar {
+    width: 20px;
+    height: 20px;
+  }
+
+  .comicsimg {
+    width: 90%;
+    height: 50%;
+  }
+
+  .comicsdescriptionp {
+    display: none;
+  }
 }

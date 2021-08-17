@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .characterimg {
@@ -46,11 +46,7 @@
   margin-top: 20px;
 }
 
-.iconstar {
-  font-size: 60px;
-}
-
-.characterdescription {
+.characterdescriptionp {
   width: 90%;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -59,8 +55,72 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   text-align: justify;
-  line-height: 17px;
   letter-spacing: 0.7px;
   max-height: 48px;
+  box-sizing: border-box;
   -webkit-line-clamp: 2;
+}
+
+.characteritem > div {
+  align-items: center;
+  justify-content: center;
+}
+
+.characterdescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  width: 80%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .characters-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+  }
+
+  .charactername {
+    font-size: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .characteritem {
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    margin-bottom: 1%;
+    background-color: white;
+    border: solid 0.1px grey;
+  }
+
+  .characteritem > div {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconstar {
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+  }
+
+  .characterimg {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+  }
+
+  .characterdescriptionp {
+    display: none;
+  }
 }

@@ -1,5 +1,6 @@
 .heroecomics-main {
-  height: 100vh;
+  margin-top: 10%;
+  max-height: 100%;
 }
 
 .heroecomics-div-h2 {
@@ -86,4 +87,38 @@
   min-height: 60%;
   max-height: 60%;
   object-fit: cover;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .heroecomics-h2 {
+    font-size: 20px;
+  }
+  .heroeportait-img {
+    height: 200px;
+  }
+
+  .heroeportrait {
+    padding-bottom: 10px;
+  }
+
+  .heroecomics-carrousel {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    margin-top: 10%;
+  }
+
+  .heroecomics-carrousel-title {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .heroecomics-carrousel-img {
+    width: 100%;
+    min-height: 60%;
+    max-height: 60%;
+    object-fit: cover;
+  }
 }

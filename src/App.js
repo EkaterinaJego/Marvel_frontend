@@ -30,9 +30,9 @@ function App() {
       : []
   );
 
-  // const myUrl = "https://marvel-backend-ejego.herokuapp.com";
+  const myUrl = "https://marvel-backend-ejego.herokuapp.com";
 
-  const myUrl = "http://localhost:3001";
+  // const myUrl = "http://localhost:3001";
 
   const handleTitleSearch = (event) => {
     setTitleSearch(event.target.value);

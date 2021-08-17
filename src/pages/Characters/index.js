@@ -67,7 +67,7 @@ const Characters = ({
               return (
                 <>
                   <div className="characteritem" key={index}>
-                    <div>
+                    <div className="iconstar">
                       <FontAwesomeIcon
                         icon="star"
                         className="iconstar"
@@ -102,7 +102,9 @@ const Characters = ({
                       />
                       {item.description ? (
                         <div className="characterdescription">
-                          <p>{item.description}</p>
+                          <p className="characterdescriptionp">
+                            {item.description}
+                          </p>
                         </div>
                       ) : (
                         ""

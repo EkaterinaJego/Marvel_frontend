@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* height: 100vh; */
+
   box-sizing: border-box;
 }
 
@@ -33,4 +33,24 @@
   width: 90vw;
   height: 60vh;
   object-fit: cover;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+  .home-folders {
+    flex-direction: column;
+  }
+
+  .home-folders p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .home-main img {
+    border-radius: 10px;
+    width: 90vw;
+    height: 60vh;
+    object-fit: cover;
+  }
 }
