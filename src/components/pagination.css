@@ -1,0 +1,34 @@
+.pagination-main {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.previous-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 22px;
+  color: #ed181e;
+  cursor: pointer;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.next-page {
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #ed181e;
+  cursor: pointer;
+}

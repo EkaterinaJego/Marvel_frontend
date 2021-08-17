@@ -1,0 +1,44 @@
+.main-fav {
+  display: flex;
+  margin-top: 4%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fav-comics {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.fav-characters {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.fav-h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.fav-img {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  object-position: left top;
+  border: solid 0.1px rgb(241, 234, 234);
+}
+
+.fav-title {
+  font-size: 30px;
+  color: grey;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-style: italic;
+}

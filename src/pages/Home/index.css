@@ -1,0 +1,36 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* height: 100vh; */
+  box-sizing: border-box;
+}
+
+.main-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
+
+.home-folders {
+  display: flex;
+}
+
+.home-folders p {
+  font-size: 50px;
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+
+.home-folders p:hover {
+  cursor: pointer;
+}
+
+.home-main img {
+  border-radius: 10px;
+  width: 90vw;
+  height: 60vh;
+  object-fit: cover;
+}
