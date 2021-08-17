@@ -51,7 +51,7 @@ const Characters = ({
           LOADING...
         </div>
       ) : (
-        <>
+        <div className="characters-main">
           {charactersdata.count > givenLimit && (
             <Pagination
               skip={skip}
@@ -113,7 +113,7 @@ const Characters = ({
               );
             })}
           </div>
-        </>
+        </div>
       )}
     </>
   );

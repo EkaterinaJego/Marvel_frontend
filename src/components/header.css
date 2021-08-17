@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   height: 100px;
-  background-image: url("../pictures/deadpoolweading.jpg");
-  object-position: right top;
+  background-image: url("../pictures/marvelimg.jpg");
+  background-position: center left;
+
   padding: 5px 5px;
   box-sizing: border-box;
   border-bottom: solid 0.1px black;
@@ -18,23 +19,12 @@
   border-bottom: solid 0.1px black;
 }
 
-/* .marvel-logo {
-  padding-right: 40px;
-  width: 40%;
-  display: flex;
-  justify-content: flex-start;
-} */
-
 .marvel-logo2 {
   padding-right: 20px;
   width: 40%;
   display: flex;
   justify-content: flex-start;
 }
-
-/* .marvel-logo-img {
-  height: 200px;
-} */
 
 .marvel-logo-img2 {
   height: 90px;
@@ -57,17 +47,9 @@
   padding-right: 100px;
   color: rgb(90, 88, 88);
   font-size: 20px;
-  line-height: 19spx;
-  text-align: justify;
-  padding-top: 0px;
-  margin-bottom: 10px;
-}
-
-.stanleeparagraph {
-  font-size: 18px;
   line-height: 19px;
-  align-items: flex-end;
-  margin-top: 0px;
+  text-align: center;
+  padding-top: 0px;
 }
 
 .search-input {

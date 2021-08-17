@@ -46,7 +46,7 @@ const Comics = ({ titleSearch, myUrl, userFavComics, setUserFavComics }) => {
           LOADING...
         </div>
       ) : (
-        <>
+        <div className="comics-main">
           {comicsdata.count > givenLimit && (
             <Pagination
               skip={skip}
@@ -98,7 +98,7 @@ const Comics = ({ titleSearch, myUrl, userFavComics, setUserFavComics }) => {
               );
             })}
           </div>
-        </>
+        </div>
       )}
     </>
   );

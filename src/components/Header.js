@@ -30,7 +30,7 @@ const Header = ({
               <input
                 type="text"
                 className="search-input"
-                placeholder="find character by name"
+                placeholder="search character by name"
                 onChange={handleNameSearch}
                 value={nameSearch}
               />
@@ -54,7 +54,7 @@ const Header = ({
               <input
                 type="text"
                 className="search-input"
-                placeholder="find comics by title"
+                placeholder="search comics by title"
                 onChange={handleTitleSearch}
                 value={titleSearch}
               />
@@ -78,9 +78,9 @@ const Header = ({
               <p>
                 “The pleasure of reading a story and wondering what will come
                 next for the hero is a pleasure that has lasted for centuries
-                and, I think, will always be with us.”
+                and, I think, will always be with us." <br />
+                <span>Stan Lee</span>
               </p>
-              <p className="stanleeparagraph">STAN LEE </p>
             </div>
           </div>
         </>

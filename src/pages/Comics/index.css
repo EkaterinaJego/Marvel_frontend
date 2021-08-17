@@ -1,3 +1,11 @@
+.comics-main {
+  width: 100%;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
 .comicbooks-collection {
   display: flex;
   flex-wrap: wrap;
@@ -11,15 +19,16 @@
 }
 
 .comicsbook {
-  width: 30%;
+  width: 31%;
   height: 600px;
   margin: 1% 1%;
-  padding: 10px 1%;
+  /* padding: 10px 1%; */
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: center;
   box-sizing: border-box;
+  border: solid 0.1px grey;
 }
 
 .comicsbook > div {

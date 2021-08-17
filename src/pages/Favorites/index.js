@@ -84,6 +84,7 @@ const Favorites = ({ userFavComics, userFavCharacters, myUrl }) => {
                   );
                   return (
                     <>
+                      {console.log(data)}
                       <div className="fav-title">{data.name}</div>
                       <img
                         className="fav-img"
