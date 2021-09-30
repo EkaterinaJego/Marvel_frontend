@@ -3,7 +3,7 @@ import axios from "axios";
 import "./index.css";
 import { useEffect, useState } from "react";
 
-const HeroeComics = () => {
+const HeroeComics = ({ myUrl }) => {
   const { id } = useParams();
   const [isLoading, setIsLoading] = useState(true);
 
@@ -12,7 +12,7 @@ const HeroeComics = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/comics/${id}`);
+        const response = await axios.get(`${myUrl}/comics/${id}`);
         setHeroecomicsData(response.data);
         setIsLoading(false);
       } catch (error) {
