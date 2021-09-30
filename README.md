@@ -52,5 +52,4 @@ Backend of this project can be found [_👉 here_](https://github.com/EkaterinaJ
 **Comics page **
 ![product page]()
 
-## Features
 
