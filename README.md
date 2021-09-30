@@ -42,14 +42,14 @@ Backend of this project can be found [_👉 here_](https://github.com/EkaterinaJ
 
 ## Screenshots
 
-**Home page**
+**All characters page**
 
 <!-- ![Example screenshot](./img/screenshot.png) -->
 
-![home page]()
+![characters page](https://user-images.githubusercontent.com/81118705/135526970-508a8fbc-099b-440d-94de-e1db91bb0fa5.png)
 
 
-**Comics page **
-![product page]()
+**Comics by character page**
+![personnage page](https://user-images.githubusercontent.com/81118705/135526583-fbcd9daa-c705-4279-a9b2-be7c1cc68f91.png)
 
 
